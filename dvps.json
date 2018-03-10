@@ -1,0 +1,45 @@
+type Query {
+  human(id: ID!): Human
+}
+
+type NetworkZone {
+  name: String!
+  description: String
+  contains: Node
+}
+
+type Node {
+  name: String
+  operatingSystem: String
+  appCamels: [Camel]
+  appSpringBoots: [Springoot]
+  appNodeJs: [NodeJs]
+  appTalend: [Talend]
+  appPlay: [PlayFramework]
+}
+
+
+type Camel {
+  name: String
+  consumeMsgFrom: [Queue]
+  produceMsgTo: [Queue]
+}
+
+type Batch {
+
+
+}
+
+type SpringBoot {
+
+}
+
+enum DeploymentUni {
+  EAR
+  EMPIRE
+  JEDI
+}
+
+type Starship {
+  name: String
+}

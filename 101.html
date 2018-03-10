@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+<html>
+
+<head>
+
+<style type="text/css" media="screen, print">
+@font-face {
+	font-family: "Ibm Plex";
+	src: url("ibm-plex/IBMPlexMono-Bold.otf") format(otf),
+	     url("ibm-plex/IBMPlexMono-BoldItalic.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-ExtraLight.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-ExtraLightItalic.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-Italic.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-Light.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-LightItalic.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-Medium.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-MediumItalic.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-Regular.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-SemiBold.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-SemiBoldItalic.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-Text.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-TextItalic.otf") format(otf),
+			 url("ibm-plex/IBMPlexMono-Thin.otf") format(otf),
+       url("ibm-plex/IBMPlexMono-ThinItalic.otf") format(otf)
+    }
+
+
+@font-face {
+	font-family: "Ibm Plex"  , sans-serif;
+	src: url("ibm-plex/IBMPlexSans-Bold.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-BoldItalic.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-ExtraLight.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-ExtraLightItalic.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-Italic.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-Light.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-LightItalic.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-Medium.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-MediumItalic.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-Regular.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-SemiBold.otf").format(otf),
+	     url("ibm-plex/IBMPlexSans-SemiBoldItalic.otf") format(otf),
+	     url("ibm-plex/IBMPlexSans-Text.otf") format(otf),
+       url("ibm-plex/IBMPlexSans-TextItalic.otf") format(otf),
+       url("ibm-plex/IBMPlexSans-Thin.otf") format(otf),
+       url("ibm-plex/IBMPlexSans-ThinItalic.otf") format(otf);
+	}
+
+
+@font-face {
+	font-family: "Ibm Plex"  , serif;
+	src: url("ibm-plex/IBMPlexSerif-Bold.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-BoldItalic.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-ExtraLight.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-ExtraLightItalic.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-Italic.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-Light.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-LightItalic.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-Medium.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-MediumItalic.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-Regular.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-SemiBold.otf").format(otf),
+		   url("ibm-plex/IBMPlexSerif-SemiBoldItalic.otf") format(otf),
+		   url("ibm-plex/IBMPlexSerif-Text.otf") format(otf),
+	     url("ibm-plex/IBMPlexSerif-TextItalic.otf") format(otf),
+	     url("ibm-plex/IBMPlexSerif-Thin.otf") format(otf),
+	     url("ibm-plex/IBMPlexSerif-ThinItalic.otf") format(otf);
+		}
+
+html {
+	background-color: white;
+
+  font-size: 10px;
+}
+details {
+	 font-family: "Ibm Plex" , monospace;
+
+
+}
+
+p { font-family: "Ibm Plex";
+	    font-size: 1.5rem;
+
+	}
+
+.extract {
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	border-left-width: medium;
+	border-left-style: solid;
+	border-left-color: #9C9C9C;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #9C9C9C;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 4px 4px 8px #9C9C9C
+	box-shadow: 4px 4px 8px #9C9C9C;
+
+}
+
+.plexmono {
+	  font-family: "Ibm Plex" , monospace;
+	}
+
+.plexsans {
+    font-family: 'Ibm Plex' , sans-serif;
+}
+
+.plexserif {
+    font-family: 'Ibm Plex' , serif;
+}
+
+
+.section {
+  display: flex;
+
+	margin: 4px;
+}
+
+.section > * { margin: 0 10px; width: 50%;}
+.section > :first-child { margin-left: 0; }
+.section > :last-child { margin-right: 0; }
+
+
+
+</style>
+
+<title>Acme Computer Corp.: Who We Are</title>
+
+</head>
+ <body>
+   <h1>
+   To compare the Plex Family
+   </h1>
+
+<p>
+	<i>This is to illustrate how to use you IBM flex Family</i>
+</p>
+
+
+<p class=plexmono >
+	Plex Mono
+	This is to illustrate how to use you IBM flex Family
+</p>
+
+<p class=plexsans>
+	Plex Sans
+	This is to illustrate how to use you IBM flex Family
+</p>
+
+<p class=plexserif>
+	Plex Serif
+	This is to illustrate how to use you IBM flex Family
+</p>
+
+<div  class="section">
+	<div>
+
+	<p class="plexsans extract">
+		1st column<br>
+		This is to illustrate how to use you IBM flex Family
+	</p>
+</div>
+ <div>
+	<p class="plexsans extract">
+		second column<br>
+		This is to illustrate how to use you IBM flex Family
+	</p>
+</div>
+
+</div>
+
+<code >
+	---
+	- name: Enable nginx repo.
+	  template:
+	    src: nginx.repo.j2
+	    dest: /etc/yum.repos.d/nginx.repo
+	    owner: root
+	    group: root
+	    mode: 0644
+	  when: nginx_yum_repo_enabled
+
+	- name: Ensure nginx is installed.
+	  yum:
+	    name: "{{ nginx_package_name }}"
+	    state: installed
+
+<code>
+
+ </body>
+</html
